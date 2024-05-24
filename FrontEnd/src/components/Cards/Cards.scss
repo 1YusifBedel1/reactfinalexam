@@ -1,0 +1,26 @@
+.myCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.myCards img{
+    width: 300px;
+}
+.myCards h3{
+    font-size: 24px;
+}
+.myCards p{
+    color: gray;
+    font-size: 16px;
+}
+.myCards span{
+    font-size: 24px;
+}
+@media only screen and (max-width: 400px) {
+    .myCards img{
+      width: 100px;
+    }
+    
+    }

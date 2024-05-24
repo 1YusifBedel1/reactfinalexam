@@ -1,0 +1,42 @@
+.section5{
+    padding: 100px 0px;
+}
+.section5 .container{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.section5 img{
+    width: 50%;
+}
+.s5Text{
+    width: 50%;
+    margin-top: -450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.s5Text span{
+    font-size: 14px;
+    font-weight: 400;
+}
+.s5Text h2{
+    font-size: 70px;
+    font-weight: 900;
+    width: 70%;
+    text-align: center;
+}
+.s5Text a{
+    padding: 10px 20px;
+    color: white;
+    background: black;
+    font-size: 13px;
+    font-weight: 400;
+}
+@media only screen and (max-width: 400px) {
+     .s5Text h2{
+    font-size: 25px;
+}
+  }

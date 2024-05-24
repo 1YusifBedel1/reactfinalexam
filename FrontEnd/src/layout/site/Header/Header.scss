@@ -1,0 +1,29 @@
+nav{
+    padding: 20px 0px;
+    width: 100%;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+
+}
+nav .container a{
+    color: black;
+}
+nav .container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 15px;
+}
+nav .container ul li a:hover{
+    color: blue;
+}
+.navIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
